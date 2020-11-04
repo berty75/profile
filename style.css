@@ -1,0 +1,114 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+h1, h2, h3 {
+  font-family: Open Sans;
+  line-height: 1.2em;
+  color: #333;
+  text-align:center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: #dee2e600;
+
+}
+
+/*ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+
+}
+
+li{
+  margin-right: 4px;
+
+
+}*/
+
+p{
+  text-decoration: #f8f9fa
+}
+
+i{
+  color:#3a86ff;
+  font-size: 1.5em;
+  margin: 5px;
+
+
+}
+i:hover {
+  color:#8338EC;
+}
+
+
+.btn-blue{
+    background-color: #3a86ff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-blue:hover {
+  background-color :#ff006e;
+  color:#fff;
+}
+
+.img-circle {
+  border-radius: 50%;
+
+}
+
+.card-white {
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 50px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.card-white > h3 {
+  color:#d08c60;
+  margin-top: 10px;
+  font-size:1.5em;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
